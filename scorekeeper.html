@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreKeeper</title>
+    <link rel="stylesheet" href="scorekeeper.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="heading"><h1>
+            Score Keeper
+        </h1></div>
+        <div class="img"><img class="photo" src="head.jpeg">
+        </div>
+        <p class="subtitle">Use the buttons below to keep score</p>
+        <h1 class="title"><span id="p1Display">0</span> to <span id="p2Display">0</span>
+            </h1>
+            <div class="select">
+                <label for="playto" class="label">Playing To</label>
+                <select name="" id="playto" value="5">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select> 
+            </div>
+        <footer class="card-footer">
+            <button id="p1Button" class="is-primary button card-footer-item is-large">+1 Player
+                One</button>
+            <button id="p2Button" class="is-info button card-footer-item is-large">+1 Player
+                Two</button>
+            <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
+    
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
